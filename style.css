@@ -22,7 +22,6 @@ body {
 	grid-auto-rows: minmax(50px, auto);
 	grid-gap: 10px;
 	/*grid-auto-rows: minmax(200px, auto);*/
-	width: 100vw;
 	max-width: 960px;
 	margin: 0 auto;
 	margin-top: 5%;
@@ -98,13 +97,8 @@ button {
 	font-size: 4em;
 }
 
-/*@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 	#content{
-		grid-template-areas:
-	"banner banner banner"
-	"scissors paper stone"
-	"player-img . com-img"
-	"player-img . com-img"
-	"result result result";
+		width: 100vw;
 	}
-}*/
+}
