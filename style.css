@@ -22,7 +22,7 @@ body {
 	grid-auto-rows: minmax(50px, auto);
 	grid-gap: 10px;
 	/*grid-auto-rows: minmax(200px, auto);*/
-	width: 100%;
+	width: 100vw;
 	max-width: 960px;
 	margin: 0 auto;
 	margin-top: 5%;
