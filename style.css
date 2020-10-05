@@ -110,6 +110,7 @@ button {
 		"player-img com-img"
 		"result result"
 		"footer footer";
+		background-color: #eee;
 	}
 	#content div{
 	padding: 15px;
